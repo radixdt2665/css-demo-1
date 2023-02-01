@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/ASSETS/CSS/style.css">
+    <link rel="stylesheet" href="/slick-slider/slick/slick.css">
+    <link rel="stylesheet" href="/slick-slider/slick/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="/ASSETS/images/favicon.ico">
+    <title>CSS demo</title>
+</head>
+<body>
+
+    <!-- navbar start -->
+    <nav class="custom-navbar border-lg-none">
+        <div class="d-flex">
+
+            <a href="#" class="logo-link d-block">
+                <img src="/ASSETS/images/logo.svg" alt="Header Logo" class="d-block d-lg-none w-175px">
+                <img src="/ASSETS/images/responsive-logo.svg" alt="Header Logo" class="d-none d-lg-block w-175px">
+            </a>
+            <ul class="d-flex align-items-center header-links w-65 justify-content-end navbar-main">
+
+                <li class="mx-30 h-100 d-flex align-items-center nav-link">
+                    <a href="#" class="text-decoration-none color-black font-titilliumWeb font-bold text-uppercase font-14 cursor-pointer relative h-100 d-flex align-items-center py-10">Home<i class="fa-solid fa-chevron-down font-10 pl-10"></i></a>
+                    <ul class="hover-menu">
+                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 1</span></a></li>
+                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 2</span></a></li>
+                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 3</span></a></li>
+                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 4</span></a></li>
+                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 5</span></a></li>
+                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 6</span></a></li>
+                    </ul>
+                </li>
+                <li class="mx-30 h-100 d-flex align-items-center nav-link">
+                    <a href="#" class="text-decoration-none color-black font-titilliumWeb font-bold text-uppercase font-14 cursor-pointer relative h-100 d-flex align-items-center py-10">Pages<i class="fa-solid fa-chevron-down font-10 pl-10"></i></a>
+                    <ul class="hover-menu">
+                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 1</span></a></li>
+                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 2</span></a></li>
+                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 3</span></a></li>
+                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 4</span></a></li>
+                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 5</span></a></li>
+                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 6</span></a></li>
+                    </ul>
+                </li>
+                <li class="mx-30 h-100 d-flex align-items-center nav-link">
+                    <a href="#" class="text-decoration-none color-black font-titilliumWeb font-bold text-uppercase font-14 cursor-pointer relative h-100 d-flex align-items-center py-10">Services<i class="fa-solid fa-chevron-down font-10 pl-10"></i></a>
+                    <div class="hover-menu w-full">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-3">
+                                    <ul>
+                                        <li class="color-white py-10 font-bold font-18">Title 1</li>
+                                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 1</span></a></li>
+                                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 2</span></a></li>
+                                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 3</span></a></li>
+                                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 4</span></a></li>
+                                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 5</span></a></li>
+                                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 6</span></a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-3">
+                                    <ul>
+                                        <li class="color-white py-10 font-bold font-18">Title 3</li>
+                                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">one Column</span></a></li>
+                                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Two Column</span></a></li>
+                                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">three Column</span></a></li>
+                                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Four Column</span></a></li>
+                                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Five Column</span></a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-3">
+                                    <ul>
+                                        <li class="color-white py-10 font-bold font-18">Title 3</li>
+                                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 1</span></a></li>
+                                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 2</span></a></li>
+                                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 3</span></a></li>
+                                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 4</span></a></li>
+                                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 5</span></a></li>
+                                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 6</span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="mx-30 h-100 d-flex align-items-center nav-link">
+                    <a href="#" class="text-decoration-none color-black font-titilliumWeb font-bold text-uppercase font-14 cursor-pointer relative h-100 d-flex align-items-center py-10">Portfolio<i class="fa-solid fa-chevron-down font-10 pl-10"></i></a>
+                     <ul class="hover-menu">
+                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 1</span></a></li>
+                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 2</span></a></li>
+                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 3</span></a></li>
+                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 4</span></a></li>
+                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 5</span></a></li>
+                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 6</span></a></li>
+                    </ul>
+                </li>
+                <li class="mx-30 h-100 d-flex align-items-center nav-link">
+                    <a href="#" class="text-decoration-none color-black font-titilliumWeb font-bold text-uppercase font-14 cursor-pointer relative h-100 d-flex align-items-center py-10">Blog<i class="fa-solid fa-chevron-down font-10 pl-10"></i></a>
+                     <ul class="hover-menu">
+                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 1</span></a></li>
+                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 2</span></a></li>
+                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 3</span></a></li>
+                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 4</span></a></li>
+                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 5</span></a></li>
+                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 6</span></a></li>
+                    </ul>
+                </li>
+                <li class="mx-30 h-100 d-flex align-items-center nav-link">
+                    <a href="#" class="text-decoration-none color-black font-titilliumWeb font-bold text-uppercase font-14 cursor-pointer relative h-100 d-flex align-items-center py-10">Contacts<i class="fa-solid fa-chevron-down font-10 pl-10"></i></a>
+                     <ul class="hover-menu">
+                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 1</span></a></li>
+                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 2</span></a></li>
+                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 3</span></a></li>
+                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 4</span></a></li>
+                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 5</span></a></li>
+                        <li><a href="#" class="d-block color-gray text-decoration-none py-10 sub-menu-link"><span class="d-inline-block transition-3s">Link 6</span></a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="d-flex ml-auto mr-30 gap-30 align-items-center">
+                <a href="#" class="searcch-link icon-links w-30px">
+                    <img src="./ASSETS/images/shopping-bag.png" alt="" class="icons-color-white-lg">
+                </a>
+                <a href="#" class="cart-link icon-links w-30px">
+                    <img src="./ASSETS/images/search.png" alt="" class="icons-color-white-lg">
+                </a>
+            </div>
+            <div class="menu-icon p-30">
+                <button class="menu-btn border-0 bg-transparent w-30px cursor-pointer">
+                    <img src="/ASSETS/images/menu-icon.svg" alt="" class="icons-color-white-lg">
+                </button>
+            </div>
+        </div>
+    </nav>
+    <div class="side-nav side-nav-bg">
+        <button class="close-icon border-0 bg-transparent p-30 d-block ml-auto cursor-pointer">
+            <img src="/ASSETS/images/close-icon.svg" alt="" class="icon-white w-30px">
+        </button>
+        <div class="content-main p-30">
+            <a href="#" class="d-inline-block mb-40"><img src="/ASSETS/images/side-nav-logo.svg" alt="Side Nav Logo" class="logo w-175px"></a>
+            <p class="font-titilliumWeb font-24 color-white mb-30">Our Gallery</p>
+            <div class="row">
+                <div class="col-3 p-5">
+                    <div class="img-p-div">
+                        <img src="/ASSETS/images/gallery-img-1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-3 p-5">
+                    <div class="img-p-div">
+                        <img src="/ASSETS/images/gallery-img-2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-3 p-5">
+                    <div class="img-p-div">
+                        <img src="/ASSETS/images/gallery-img-3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-3 p-5">
+                    <div class="img-p-div">
+                        <img src="/ASSETS/images/gallery-img-4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-3 p-5">
+                    <div class="img-p-div">
+                        <img src="/ASSETS/images/gallery-img-5.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-3 p-5">
+                    <div class="img-p-div">
+                        <img src="/ASSETS/images/gallery-img-6.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <p class="font-titilliumWeb font-24 color-white mt-30 mb-30">Contact Info</p>
+
+            <div class="location-info mb-30">
+                <div class="d-flex align-items-center">
+                    <img src="/ASSETS/images/location.png" alt="Location Icon" class="w-20px icon-white">
+                    <p class="font-raleway color-white pl-20">411 University St, Seattle, USA</p>
+                </div>
+            </div>
+            <div class="email-info mb-30">
+                <a href="mailto:theratio_interior@mail.com" class="d-flex align-items-center text-decoration-none">
+                    <img src="/ASSETS/images/open-mail.png" alt="Mail" class="w-20px icon-white">
+                    <p class="font-raleway color-white pl-20">theratio_interior@mail.com</p>
+                </a>
+            </div>
+            <div class="email-info mb-40">
+                <a href="tel:+1 800 456 789 123" class="d-flex align-items-center text-decoration-none">
+                    <img src="/ASSETS/images/telephone.png" alt="Mail" class="w-20px icon-white">
+                    <p class="font-raleway color-white pl-20">+1 800 456 789 123</p>
+                </a>
+            </div>
+
+            <div class="common-social-link social-main d-flex gap-20">
+                <a href="#" class="social-link text-decoration-none color-white d-flex align-items-center justify-content-center">
+                    <i class="fa-brands fa-twitter font-14"></i>
+                </a>
+                <a href="#" class="social-link text-decoration-none color-white d-flex align-items-center justify-content-center">
+                    <i class="fa-brands fa-facebook-f font-14"></i>
+                </a>
+                <a href="#" class="social-link text-decoration-none color-white d-flex align-items-center justify-content-center">
+                    <i class="fa-brands fa-linkedin-in font-14"></i>
+                </a>
+                <a href="#" class="social-link text-decoration-none color-white d-flex align-items-center justify-content-center">
+                    <i class="fa-brands fa-instagram font-14"></i>
+                </a>
+            </div>
+
+        </div>
+    </div>
+    
+    <!-- navbar end -->
+    
+    <!-- banner-section start -->
+    <div class="right-social-links">
+        <ul class="d-flex gap-30">
+            <li><a href="#" class="text-decoration-none text-uppercase font-14 color-black">Instagram</a></li>
+            <li><a href="#" class="text-decoration-none text-uppercase font-14 color-black">Facebook</a></li>
+            <li><a href="#" class="text-decoration-none text-uppercase font-14 color-black">Twitter</a></li>
+            <li><a href="#" class="text-decoration-none text-uppercase font-14 color-black">Pinterest</a></li>
+        </ul>
+    </div>
+
+    <section class="banner-section">
+        <div class="banner-container relative">
+            <div class="row align-items-center gap-md-30 relative">
+                    <div class="col-2 w-md-100 banner-content-slider">
+                        <div class="px-160">
+                            <p class="font-71 font-titilliumWeb color-black line-height-80">Simple. Authentic. Close to Nature
+                            </p>
+                            <p class="font-18 line-height-30 my-45">Our goal is to create reliable relations with customers, that is why, from the first day of the activity of the studio.</p>
+                            <a href="#" class="view-btn mb-15 text-uppercase text-decoration-none d-inline-block color-white font-13 font-titilliumWeb font-bold relative cursor-pointer">View Projects</a>
+                        </div>
+                        <div class="px-160 ">
+                            <!-- <img src="/ASSETS/images/circle-text.png" alt=""> -->
+                            <p class="font-71 font-titilliumWeb color-black line-height-80">Create Unique Exterior Designs</p>
+                            <p class="font-18 line-height-30 my-45">Our goal is to create reliable relations with customers, that is why, from the first day of the activity of the studio.</p>
+                            <a href="#" class="view-btn mb-15 text-uppercase text-decoration-none d-inline-block color-white font-13 font-titilliumWeb font-bold relative cursor-pointer">View Projects</a>
+                        </div>
+                        <div class="px-160 ">
+                            <!-- <img src="/ASSETS/images/circle-text.png" alt=""> -->
+                            <p class="font-71 font-titilliumWeb color-black line-height-80">Aesthetically Stunning Solutions</p>
+                            <p class="font-18 line-height-30 my-45">Our goal is to create reliable relations with customers, that is why, from the first day of the activity of the studio.</p>
+                            <a href="#" class="view-btn mb-15 text-uppercase text-decoration-none d-inline-block color-white font-13 font-titilliumWeb font-bold relative cursor-pointer">View Projects</a>
+                        </div>
+                    </div>
+                    <img src="/ASSETS/images/circle-text.png" alt="" class="banner-circle-img">
+
+                <div class="col-2 w-md-100 banner-img-slider">
+                    <div class="img-p-div">
+                        <img src="/ASSETS/images/slider-img-1.jpg" width="868" height="860" alt="">
+                    </div>
+                    <div class="img-p-div">
+                        <img src="/ASSETS/images/slider-img-1.jpg" width="868" height="860" alt="">
+                    </div>
+                    <div class="img-p-div">
+                        <img src="/ASSETS/images/slider-img-1.jpg" width="868" height="860" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+            
+            <div class="d-flex custom-button mx-0 mt-15">
+                <button type="button" class="slick-btn slick-prev-1 border-0 cursor-pointer primary-color font-20 bg-none p-30 bg-white"><i class="fa-solid fa-arrow-left-long"></i></button>
+                <button type="button" class="slick-btn slick-next-1 border-0 cursor-pointer primary-color font-20 bg-none p-30 bg-white"><i class="fa-solid fa-arrow-right-long"></i></i></button>
+            </div>
+        </div>
+    </section>
+    <!-- banner-section end -->
+    
+    <!-- principes-section start -->
+    <section class="principes-section py-60 pb-xl-0">
+        <div class="container">
+            <div class="row flex-direction-column mr-xl-90 ml-xl-88">
+                <div class="col-2 w-lg-100">
+                    <div class="img-p-div ml-lg-0 text-lg-center">
+                        <img src="/ASSETS/images/principes-img-1.png" width="716" height="611" alt="Principes Section Images">
+                    </div>
+                </div>
+                <div class="col-2 w-lg-100 mt-lg-30">
+                    <div class="main-content pl-60 pl-lg-0">
+                        <div class="common-title-content relative pb-30 mb-30">
+                            <p class="text-uppercase font-14 color-gray font-josefin-bold line-height-26">[MAIN PRINCIPES]</p>
+                            <h2 class="font-42 color-black font-titilliumWeb mt-10">A Sketch of Each Detail</h2>
+                        </div>
+                        <p class="font-raleway bod line-height-30 mb-30">The basic philosophy of our studio is to create individual, aesthetically stunning solutions for our customers by lightning-fast development of projects employing unique styles.</>
+                        
+                        <div class="row flex-md-column">
+                            <div class="col-2 w-md-100">
+                                <div class="p-15">
+                                    <div class="icon-p-img mx-md-auto">
+                                        <img src="/ASSETS/images/blueprint.png" alt="Project BLueprint">
+                                    </div>
+                                    <div class="content mt-25 text-md-center">
+                                        <a href="#" class="color-black text-decoration-none font-24 font-titilliumWeb">3D Visualization</a>
+                                        <p class="line-height-30 my-15">3D sketch of each detail of your future interior.</p>
+                                        <a href="#" class="font-13 font-bold color-black font-titilliumWeb text-decoration-none read-more-link relative text-uppercase d-inline-block">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-2 w-md-100">
+                                <div class="p-15">
+                                    <div class="icon-p-img mx-md-auto">
+                                        <img src="/ASSETS/images/blueprint.png" alt="Project BLueprint">
+                                    </div>
+                                    <div class="content mt-25 text-md-center">
+                                        <a href="#" class="color-black text-decoration-none font-24 font-titilliumWeb">Individual Project</a>
+                                        <p class="line-height-30 my-15">The basic philosophy of studio is to create individual design.</p>
+                                        <a href="#" class="font-13 font-bold color-black font-titilliumWeb text-decoration-none read-more-link relative text-uppercase d-inline-block">read more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- principes-section end -->
+
+    <!-- skill-section start -->
+    <section class="skill-section py-60 relative">
+        <div class="container">
+            <div class="row">
+                <div class="col-2 w-md-100">
+                    <div class="common-title-content relative pb-30 mb-30">
+                        <p class="text-uppercase font-14 color-gray font-josefin-bold line-height-26">[our skills]</p>
+                        <h2 class="font-42 color-black font-titilliumWeb mt-10">The Core Company Values</h2>
+                    </div>
+                    <p class="font-raleway line-height-30 mb-30">We are constantly growing, learning, and improving and our partners are steadily increasing. 200 projects is a sizable number.</p>
+                    <div class="w-65 relative border-bottom right-slash pb-10">
+                        <div class="d-flex align-items-end justify-content-between">
+                            <span class="text-uppercase color-black font-bold font-14 font-titilliumWeb">Interior sketch</span>
+                            <span class="text-uppercase color-black font-bold font-14 font-titilliumWeb">65%</span>
+                        </div>
+                    </div>
+                    <div class="w-85 relative border-bottom right-slash pb-10 mt-25">
+                        <div class="d-flex align-items-end justify-content-between">
+                            <span class="text-uppercase color-black font-bold font-14 font-titilliumWeb">3D Modeling</span>
+                            <span class="text-uppercase color-black font-bold font-14 font-titilliumWeb">85%</span>
+                        </div>
+                    </div>
+                    <div class="w-55 relative border-bottom right-slash pb-10 mt-25">
+                        <div class="d-flex align-items-end justify-content-between">
+                            <span class="text-uppercase color-black font-bold font-14 font-titilliumWeb">2D Planning</span>
+                            <span class="text-uppercase color-black font-bold font-14 font-titilliumWeb">55%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 w-md-100">
+                    <div class="img-p-div">
+                        <img src="/ASSETS/images/skill-section-img.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-img-p-div">
+            <img src="/ASSETS/images/bg-home.png" alt="">
+        </div>
+    </section>
+    <!-- skill-section end -->
+    
+    <!-- brand-logo-section slider start -->
+    <section class="brand-section-slider">
+        <div class="bg-black py-90 mx-15">
+            <div class="row brand-logo-slider align-items-center px-50">
+                <div class="col-6">
+                    <div class="img-p-div d-flex">
+                        <img src="/ASSETS/images/client1.svg" alt="" class="cursor-pointer">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="img-p-div d-flex">
+                        <img src="/ASSETS/images/client2.svg" alt="" class="cursor-pointer">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="img-p-div d-flex">
+                        <img src="/ASSETS/images/client3.svg" alt="" class="cursor-pointer">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="img-p-div d-flex">
+                        <img src="/ASSETS/images/client4.svg" alt="" class="cursor-pointer">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="img-p-div d-flex">
+                        <img src="/ASSETS/images/client5.svg" alt="" class="cursor-pointer">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="img-p-div d-flex">
+                        <img src="/ASSETS/images/client6.svg" alt="" class="cursor-pointer">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="img-p-div d-flex">
+                        <img src="/ASSETS/images/client1.svg" alt="" class="cursor-pointer">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="designs-section-slider pb-60 pb-xl-0">
+        <div class="mx-15 overflow-hidden">
+            <div class="row design-section-slider">
+                <div class="col-3 px-0 cursor-pointer">
+                    <div class="card relative overflow-hidden">
+                        <img src="/ASSETS/images/project1.jpg" alt="" class="d-block transition-3s">
+                        <div class="content p-30 bg-white transition-3s">
+                            <a href="#" class="font-24 font-titilliumWeb cursor-pointer card-title color-black relative text-decoration-none">Modern Villa in Belgium</a>
+                            <p class="font-14 font-josefin-bold color-gray text-uppercase mt-20 sub-title transition-3s">[ Furniture ]</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 px-0 cursor-pointer">
+                    <div class="card relative overflow-hidden">
+                        <img src="/ASSETS/images/project2.jpg" alt="" class="d-block transition-3s">
+                        <div class="content p-30 bg-white transition-3s">
+                            <a href="#" class="font-24 font-titilliumWeb cursor-pointer card-title color-black relative text-decoration-none">Modern Villa in Belgium</a>
+                            <p class="font-14 font-josefin-bold color-gray text-uppercase mt-20 sub-title transition-3s">[ Furniture ]</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 px-0 cursor-pointer">
+                    <div class="card relative overflow-hidden">
+                        <img src="/ASSETS/images/project-3.jpg" alt="" class="d-block transition-3s">
+                        <div class="content p-30 bg-white transition-3s">
+                            <a href="#" class="font-24 font-titilliumWeb cursor-pointer card-title color-black relative text-decoration-none">Modern Villa in Belgium</a>
+                            <p class="font-14 font-josefin-bold color-gray text-uppercase mt-20 sub-title transition-3s">[ Furniture ]</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 px-0 cursor-pointer">
+                    <div class="card relative overflow-hidden">
+                        <img src="/ASSETS/images/project4.jpg" alt="" class="d-block transition-3s">
+                        <div class="content p-30 bg-white transition-3s">
+                            <a href="#" class="font-24 font-titilliumWeb cursor-pointer card-title color-black relative text-decoration-none">Modern Villa in Belgium</a>
+                            <p class="font-14 font-josefin-bold color-gray text-uppercase mt-20 sub-title transition-3s">[ Furniture ]</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 px-0 cursor-pointer">
+                    <div class="card relative overflow-hidden">
+                        <img src="/ASSETS/images/project5.jpg" alt="" class="d-block transition-3s">
+                        <div class="content p-30 bg-white transition-3s">
+                            <a href="#" class="font-24 font-titilliumWeb cursor-pointer card-title color-black relative text-decoration-none">Modern Villa in Belgium</a>
+                            <p class="font-14 font-josefin-bold color-gray text-uppercase mt-20 sub-title transition-3s">[ Furniture ]</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 px-0 cursor-pointer">
+                    <div class="card relative overflow-hidden">
+                        <img src="/ASSETS/images/project6.jpg" alt="" class="d-block transition-3s">
+                        <div class="content p-30 bg-white transition-3s">
+                            <a href="#" class="font-24 font-titilliumWeb cursor-pointer card-title color-black relative text-decoration-none">Modern Villa in Belgium</a>
+                            <p class="font-14 font-josefin-bold color-gray text-uppercase mt-20 sub-title transition-3s">[ Furniture ]</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- brand-logo-section slider end -->
+
+    <!-- services-section start -->
+    <section class="services-section py-60 pb-xl-0">
+        <div class="container">
+            <div class="common-title-content text-center relative pb-30 mb-30">
+                <p class="text-uppercase font-14 color-gray font-josefin-bold line-height-26">[our services]</p>
+                <h2 class="font-42 color-black font-titilliumWeb mt-10">What Can We Offer</h2>
+            </div>
+            <div class="row slider mt-50">
+                <div class="col-3 mb-30">
+                    <div class="card img-p-div relative transition-3s">
+                        <div class="content text-center">
+                            <div class="icon-img">
+                                <img src="/ASSETS/images/icon1.png" class="mx-auto" alt="Service Icon 1">
+                            </div>
+                            <p class="font-24 color-black font-titilliumWeb my-25">Design & Planning</p>
+                            <p class="color-black font-raleway line-height-30">We will help you to get the result you dreamed of.</p>
+                            <a href="#" class="font-13 font-bold color-black font-titilliumWeb text-decoration-none read-more-link relative text-uppercase mt-20 d-inline-block">read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mb-30">
+                    <div class="card img-p-div relative transition-3s">
+                        <div class="content text-center">
+                            <div class="icon-img">
+                                <img src="/ASSETS/images/icon2.png" class="mx-auto" alt="Service Icon 2">
+                            </div>
+                            <p class="font-24 color-black font-titilliumWeb my-25">Custom Solution</p>
+                            <p class="color-black font-raleway line-height-30">We will help you to get the result you dreamed of.</p>
+                            <a href="#" class="font-13 font-bold color-black font-titilliumWeb text-decoration-none read-more-link relative text-uppercase mt-20 d-inline-block">read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mb-30">
+                    <div class="card img-p-div relative transition-3s">
+                        <div class="content text-center">
+                            <div class="icon-img">
+                                <img src="/ASSETS/images/icon3.png" class="mx-auto" alt="Service Icon 3">
+                            </div>
+                            <p class="font-24 color-black font-titilliumWeb my-25">Furniture & Decore</p>
+                            <p class="color-black font-raleway line-height-30">We will help you to get the result you dreamed of.</p>
+                            <a href="#" class="font-13 font-bold color-black font-titilliumWeb text-decoration-none read-more-link relative text-uppercase mt-20 d-inline-block">read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mb-30">
+                    <div class="card img-p-div relative transition-3s">
+                        <div class="content text-center">
+                            <div class="icon-img">
+                                <img src="/ASSETS/images/icon4.png" class="mx-auto" alt="Service Icon 4">
+                            </div>
+                            <p class="font-24 color-black font-titilliumWeb my-25">Design & Planning</p>
+                            <p class="color-black font-raleway line-height-30">We will help you to get the result you dreamed of.</p>
+                            <a href="#" class="font-13 font-bold color-black font-titilliumWeb text-decoration-none read-more-link relative text-uppercase mt-20 d-inline-block">read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mb-30">
+                    <div class="card img-p-div relative transition-3s">
+                        <div class="content text-center">
+                            <div class="icon-img">
+                                <img src="/ASSETS/images/icon5.png" class="mx-auto" alt="Service Icon 5">
+                            </div>
+                            <p class="font-24 color-black font-titilliumWeb my-25">Design & Planning</p>
+                            <p class="color-black font-raleway line-height-30">We will help you to get the result you dreamed of.</p>
+                            <a href="#" class="font-13 font-bold color-black font-titilliumWeb text-decoration-none read-more-link relative text-uppercase mt-20 d-inline-block">read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 mb-30">
+                    <div class="card img-p-div relative transition-3s">
+                        <div class="content text-center">
+                            <div class="icon-img">
+                                <img src="/ASSETS/images/icon6.png" class="mx-auto" alt="Service Icon 6">
+                            </div>
+                            <p class="font-24 color-black font-titilliumWeb my-25">Design & Planning</p>
+                            <p class="color-black font-raleway line-height-30">We will help you to get the result you dreamed of.</p>
+                            <a href="#" class="font-13 font-bold color-black font-titilliumWeb text-decoration-none read-more-link relative text-uppercase mt-20 d-inline-block">read more</a>
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+    <!-- services-section end -->
+
+    <!-- counter-section start -->
+    <section class="counter-section py-60 pb-xl-0">
+        <div class="container">
+            <div class="row gap-md-30 justify-content-center">
+                <div class="col-4 text-center">
+                    <p class="font-42 font-josefin-light font-bold counter-gray">[ 180+ ]</p>
+                    <p class="font-titilliumWeb-bold color-black text-uppercase mt-20 letter-spacing-2">Current clients</p>
+                </div>
+                <div class="col-4 text-center">
+                    <p class="font-42 font-josefin-light font-bold counter-gray">[ 10+ ]</p>
+                    <p class="font-titilliumWeb-bold color-black text-uppercase mt-20 letter-spacing-2">YEARS OF EXPERIENCE</p>
+                </div>
+                <div class="col-4 text-center">
+                    <p class="font-42 font-josefin-light font-bold counter-gray">[ 35+ ]</p>
+                    <p class="font-titilliumWeb-bold color-black text-uppercase mt-20 letter-spacing-2">AWARDS WINNING</p>
+                </div>
+                <div class="col-4 text-center">
+                    <p class="font-42 font-josefin-light font-bold counter-gray">[ 5+ ]</p>
+                    <p class="font-titilliumWeb-bold color-black text-uppercase mt-20 letter-spacing-2">OFFICES WORLDWIDE</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- counter-section end -->
+
+    <!-- plan-section start -->
+    <section class="plan-section py-60 pb-xl-0">
+        <div class="section-bg  py-60"></div>
+        <div class="pricing-plan-main p-60 pb-xl-0">
+            <div class="common-title-content relative pb-30 mb-30 text-center">
+                <p class="text-uppercase font-14 color-gray font-josefin-bold line-height-26">[Pricing Plans]</p>
+                <h2 class="font-42 color-black font-titilliumWeb mt-10">Choose Your Perfect Plan</h2>
+            </div>
+            <div class="container">
+                <div class="row mt-40 justify-content-center">
+                    <div class="col-3">
+                        <div class="pricing-card p-60 relative">
+                            <span class="d-inline-block plan-title px-20 py-10 bg-black color-white text-uppercase font-14 font-titilliumWeb font-bold">Basic Plan</span>
+                            <div class="text-center">
+                                <p class="font-30 d-inline-block"><span class="currency-span relative">$</span><span class="font-48">29</span></p>
+                                <p class="per-m2 d-inline-block color-gray">per m2</p>
+                            </div>
+                            <hr class="my-45">
+                            <ul class="pricing-detail">
+                                <li class="d-flex justify-content-between font-raleway pb-20"><span>Structure of a project</span><i class="fa-solid fa-chevron-right"></i></li>
+                                <li class="d-flex justify-content-between font-raleway pb-20"><span>Measurement of the room</span><i class="fa-solid fa-chevron-right"></i></li>
+                                <li class="d-flex justify-content-between font-raleway pb-20"><span>3D-Visualization of premises</span><i class="fa-solid fa-chevron-right"></i></li>
+                                <li class="d-flex justify-content-between font-raleway pb-20"><span>Dismantling plan</span><i class="fa-solid fa-chevron-right"></i></li>
+                                <li class="d-flex justify-content-between font-raleway pb-20 color-gray"><span>Scheme of interior finishing</span></li>
+                                <li class="d-flex justify-content-between font-raleway pb-20 color-gray"><span>Floor & celling plan</span></li>
+                                <div class="text-center">
+                                    <a href="#" class="choose-plan-link text-decoration-none text-uppercase font-13 font-bold mt-20 d-inline-block">Choose plan</a>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="pricing-card p-60 relative bg-black color-white">
+                            <span class="d-inline-block plan-title px-20 py-10 bg-black color-white text-uppercase font-14 font-titilliumWeb font-bold bg-light-gray">Ultra Plan</span>
+                            <div class="text-center">
+                                <p class="font-30 d-inline-block"><span class="currency-span relative">$</span><span class="font-48">39</span></p>
+                                <p class="per-m2 d-inline-block color-gray">per m2</p>
+                            </div>
+                            <hr class="my-45">
+                            <ul class="pricing-detail">
+                                <li class="d-flex justify-content-between font-raleway pb-20"><span>Structure of a project</span><i class="fa-solid fa-chevron-right"></i></li>
+                                <li class="d-flex justify-content-between font-raleway pb-20"><span>Measurement of the room</span><i class="fa-solid fa-chevron-right"></i></li>
+                                <li class="d-flex justify-content-between font-raleway pb-20"><span>3D-Visualization of premises</span><i class="fa-solid fa-chevron-right"></i></li>
+                                <li class="d-flex justify-content-between font-raleway pb-20"><span>Dismantling plan</span><i class="fa-solid fa-chevron-right"></i></li>
+                                <li class="d-flex justify-content-between font-raleway pb-20"><span>Scheme of interior finishing</span><i class="fa-solid fa-chevron-right"></i></li>
+                                <li class="d-flex justify-content-between font-raleway pb-20 color-gray"><span>Floor & celling plan</span></li>
+                                <div class="text-center">
+                                    <a href="#" class="choose-plan-link choose-plan-link-alt text-decoration-none text-uppercase font-13 font-bold mt-20 d-inline-block">Choose plan</a>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="pricing-card p-60 relative">
+                            <span class="d-inline-block plan-title px-20 py-10 bg-black color-white text-uppercase font-14 font-titilliumWeb font-bold">Maximal Plan</span>
+                            <div class="text-center">
+                                <p class="font-30 d-inline-block"><span class="currency-span relative">$</span><span class="font-48">49</span></p>
+                                <p class="per-m2 d-inline-block color-gray">per m2</p>
+                            </div>
+                            <hr class="my-45">
+                            <ul class="pricing-detail">
+                                <li class="d-flex justify-content-between font-raleway pb-20"><span>Structure of a project</span><i class="fa-solid fa-chevron-right"></i></li>
+                                <li class="d-flex justify-content-between font-raleway pb-20"><span>Measurement of the room</span><i class="fa-solid fa-chevron-right"></i></li>
+                                <li class="d-flex justify-content-between font-raleway pb-20"><span>3D-Visualization of premises</span><i class="fa-solid fa-chevron-right"></i></li>
+                                <li class="d-flex justify-content-between font-raleway pb-20"><span>Dismantling plan</span><i class="fa-solid fa-chevron-right"></i></li>
+                                <li class="d-flex justify-content-between font-raleway pb-20"><span>Scheme of interior finishing</span><i class="fa-solid fa-chevron-right"></i></li>
+                                <li class="d-flex justify-content-between font-raleway pb-20"><span>Floor & celling plan</span><i class="fa-solid fa-chevron-right"></i></li>
+                                <div class="text-center">
+                                    <a href="#" class="choose-plan-link text-decoration-none text-uppercase font-13 font-bold mt-20 d-inline-block">Choose plan</a>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- plan-section end -->
+
+    <!-- testimonial-section start -->
+    <section class="testimonial-section py-60">
+        <div class="d-flex ml-88px mr-90px mr-xl-90 ml-xl-88 flex-tb-column">
+            <div class="col-2 w-tb-100 px-0">
+                <img src="/ASSETS/images/testimonial-img.jpg" class="d-block mx-auto" alt="Testimonial Image" width="869" height="640">
+            </div>
+            <div class="col-2 w-tb-100 testimonial-bg-img px-0">
+                <div class="content p-60 relative">
+                    <div class="common-title-content relative pb-30 mb-30">
+                        <p class="text-uppercase font-14 color-gray font-josefin-bold line-height-26">[ Testimonials ]</p>
+                        <h2 class="font-42 color-black font-titilliumWeb mt-10">What People Say</h2>
+                    </div>
+                    <div class="testimonial-slider">
+                        <div class="slider-content">
+                            <p class="font-20 line-height-36">“You will never fake the feeling of being in such a place. The live minimalism base on the natural materials and alive unprocessed textures — true, authentic, close to nature. It has memory and appreciates to the culture, roots, archetypes.”</p>
+                            <div class="client-details mt-30">
+                                <p class="color-black font-24">Pablo Gusterio</p>
+                                <p class="text-uppercase mt-10">Client of company</p>
+                            </div>
+                        </div>
+                        <div class="slider-content">
+                            <p class="font-20 line-height-36">“I’m always impressed with the services. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.”</p>
+                            <div class="client-details mt-30">
+                                <p class="color-black font-24">Anna Paulina</p>
+                                <p class="text-uppercase mt-10">Client of company</p>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <div class="d-flex custom-button mx-0 mt-15">
+                        <button type="button" class="slick-btn t-slick-prev-2 border-0 cursor-pointer primary-color font-20 bg-transparent p-30 pr-0"><i class="fa-solid fa-arrow-left-long"></i></button>
+                        <button type="button" class="slick-btn t-slick-next-2 border-0 cursor-pointer primary-color font-20 bg-transparent p-30 "><i class="fa-solid fa-arrow-right-long"></i></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- testimonial-section end -->
+
+    <!-- our-blog section start -->
+    <section class="blog-section py-60">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-top flex-sm-column mb-sm-20">
+                <div class="common-title-content relative pb-30 mb-30">
+                    <p class="text-uppercase font-14 color-gray font-josefin-bold line-height-26">[ Our Blog ]</p>
+                    <h2 class="font-42 color-black font-titilliumWeb mt-10">Read Our Latest News</h2>
+                </div>
+                <a href="#" class="view-btn text-uppercase text-decoration-none d-inline-block color-white font-13 font-titilliumWeb font-bold relative cursor-pointer">View All</a>
+            </div>
+            <div class="row gap-md-30">
+                <div class="col-3 w-md-100">
+                    <div class="card p-15 transition-3s">
+                        <div class="img-p-div relative cursor-pointer">
+                            <img src="/ASSETS/images/blog-post-1.jpg" alt="Blog Image" class="d-block">
+                            <a href="#" class="bg-black color-white px-10 py-8 img-tag text-decoration-none transition-3s text-uppercase font-13 font-bold">Interior</a>
+                        </div>
+                        <div class="card-body pt-20 pb-10">
+                            <div class="text-uppercase d-flex mb-15">
+                                <a href="#" class="text-decoration-none color-gray time-color transition-3s mr-10">March 20, 2020</a>
+                                <span class="dots-main d-flex align-items-center gap-5"><span class="dot-1"></span><span class="dot-1"></span></span> 
+                                <a href="#" class="text-decoration-none color-gray time-color transition-3s ml-10">Tom black</a>
+                            </div>
+                            <a href="#" class="color-black text-decoration-none font-24 line-height-36 link-underline">Top 10 Tips for Your Kitchen Interior Design</a>
+                            <p class="font-raleway mt-15">A faceting effect liven up and...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 w-md-100">
+                    <div class="card p-15 transition-3s">
+                        <div class="img-p-div relative cursor-pointer">
+                            <img src="/ASSETS/images/blog-post-2.jpg" alt="Blog Image" class="d-block">
+                            <a href="#" class="bg-black color-white px-10 py-8 img-tag text-decoration-none transition-3s text-uppercase font-13 font-bold">Architecture</a>
+                        </div>
+                        <div class="card-body pt-20 pb-10">
+                            <div class="text-uppercase d-flex mb-15">
+                                <a href="#" class="text-decoration-none color-gray time-color transition-3s mr-10">March 20, 2020</a>
+                                <span class="dots-main d-flex align-items-center gap-5"><span class="dot-1"></span><span class="dot-1"></span></span> 
+                                <a href="#" class="text-decoration-none color-gray time-color transition-3s ml-10">Tom black</a>
+                            </div>
+                            <a href="#" class="color-black text-decoration-none font-24 line-height-36 link-underline">Top 10 Tips for Your Kitchen Interior Design</a>
+                            <p class="font-raleway mt-15">A faceting effect liven up and...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 w-md-100">
+                    <div class="card p-15 transition-3s">
+                        <div class="img-p-div relative cursor-pointer">
+                            <img src="/ASSETS/images/blog-post-3.jpg" alt="Blog Image" class="d-block">
+                            <a href="#" class="bg-black color-white px-10 py-8 img-tag text-decoration-none transition-3s text-uppercase font-13 font-bold">Interior</a>
+                        </div>
+                        <div class="card-body pt-20 pb-10">
+                            <div class="text-uppercase d-flex mb-15">
+                                <a href="#" class="text-decoration-none color-gray time-color transition-3s mr-10">March 20, 2020</a>
+                                <span class="dots-main d-flex align-items-center gap-5"><span class="dot-1"></span><span class="dot-1"></span></span> 
+                                <a href="#" class="text-decoration-none color-gray time-color transition-3s ml-10">Tom black</a>
+                            </div>
+                            <a href="#" class="color-black text-decoration-none font-24 line-height-36 link-underline">Top 10 Tips for Your Kitchen Interior Design</a>
+                            <p class="font-raleway mt-15">A faceting effect liven up and...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- our-blog section end -->
+
+    <!-- footer start -->
+    <footer class="footer py-60 pb-0 bg-black">
+        <div class="mt-90"></div>
+        <div class="container py-60">
+            <div class="row">
+                <div class="col-3 w-md-50 w-sm-100">
+                    <p class="color-white mb-30 font-20">Contacts</p>
+                    <div class="location-info mb-30 color-f-gray">
+                        <div class="d-flex align-items-center">
+                            <img src="/ASSETS/images/location.png" alt="Location Icon" class="w-20px icon-white">
+                            <p class="font-raleway pl-20">411 University St, Seattle, USA</p>
+                        </div>
+                    </div>
+                    <div class="email-info mb-30">
+                        <a href="mailto:theratio_interior@mail.com" class="d-flex align-items-center text-decoration-none color-f-gray">
+                            <img src="/ASSETS/images/open-mail.png" alt="Mail" class="w-20px icon-white">
+                            <p class="font-raleway pl-20">theratio_interior@mail.com</p>
+                        </a>
+                    </div>
+                    <div class="email-info mb-40">
+                        <a href="tel:+1 800 456 789 123" class="d-flex align-items-center text-decoration-none color-f-gray">
+                            <img src="/ASSETS/images/telephone.png" alt="Mail" class="w-20px icon-white">
+                            <p class="font-raleway pl-20">+1 800 456 789 123</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-3 w-md-50 w-sm-100 text-center text-sm-start">
+                    <img src="/ASSETS/images/responsive-logo.svg" alt="" class="w-175px">
+                    <p class="color-f-gray line-height-30 my-30">The secret is a smoothly working team of disparate people who are each endowed with some special talent..</p>
+                    <div class="common-social-link social-main d-flex gap-20 justify-content-center justify-content-sm-left mb-sm-40">
+                        <a href="#" class="social-link text-decoration-none color-white d-flex align-items-center justify-content-center">
+                            <i class="fa-brands fa-twitter font-14"></i>
+                        </a>
+                        <a href="#" class="social-link text-decoration-none color-white d-flex align-items-center justify-content-center">
+                            <i class="fa-brands fa-facebook-f font-14"></i>
+                        </a>
+                        <a href="#" class="social-link text-decoration-none color-white d-flex align-items-center justify-content-center">
+                            <i class="fa-brands fa-linkedin-in font-14"></i>
+                        </a>
+                        <a href="#" class="social-link text-decoration-none color-white d-flex align-items-center justify-content-center">
+                            <i class="fa-brands fa-instagram font-14"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-3 w-md-50 w-sm-100 text-end text-md-start">
+                    <p class="color-white mb-30 font-20">Latest Projects</p>
+                    <ul class="font-raleway">
+                        <li><a href="#" class="text-decoration-none color-f-gray d-inline-block mb-30 f-project-link">Stylish Family Appartment</a></li>
+                        <li><a href="#" class="text-decoration-none color-f-gray d-inline-block mb-30 f-project-link">Modern Villa in Belgium</a></li>
+                        <li><a href="#" class="text-decoration-none color-f-gray d-inline-block mb-30 f-project-link">Private House in Spain</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="mt-90 my-0 pt-35 pb-35 px-20">
+            <p class="text-center color-f-gray line-height-26 font-raleway">Copyright  &copy; 2022 Theratio by <a href="#" class="text-decoration-none color-white transition-3s hover-color-gray">OceanThemes</a>. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/slick-slider/slick/slick.min.js"></script>
+
+    <script>
+
+        $(document).ready(function(){
+
+            $(".menu-icon").click(function(){
+                if($(window).width() > 1199){
+                    var s = $(".menu-icon").parent().closest(".custom-navbar");
+                    s.next().addClass("side-nav-show")
+                }
+                else{
+                    $(this).toggleClass('icon-z-index');
+                    $(".custom-navbar .navbar-main").toggleClass("menuClass")
+                }
+            })
+
+
+      
+            $(".nav-link a").click(function(e){
+                if((window).width() > 1199 ){
+                    e.preventDefault();
+                    $('li .hover-menu').removeClass('active');
+                    $(this).next().addClass('active');
+
+                }
+            })
+            $(window).bind("resize", function () {
+                console.log($(this).width())
+                if ($(this).width() > 1199) {
+                    $('.hover-menu').removeClass('active')
+                } 
+            }).trigger('resize');
+                
+           
+            $(".close-icon").click(function(){
+                var s = $(this).parent().closest(".side-nav");
+                s.removeClass("side-nav-show")
+            })
+
+            $(window).scroll(function() {    
+                var scroll = $(window).scrollTop();
+                var height = $(".custom-navbar").outerHeight();
+                if (scroll >= 50) {
+                    $(".custom-navbar").addClass("headerSticky shadow");
+                } else {
+                    $(".custom-navbar").removeClass("headerSticky shadow");
+                }
+            });
+        })
+
+        $(window).on('scroll',function(){
+			let scroll = $(window).scrollTop();
+			let oTop = $('.progress-bar').offset().top - window.innerHeight;
+			if(scroll>oTop){
+				$(".progress-bar").addClass("progressbar-active");
+			}
+			else{
+				$(".progress-bar").removeClass("progressbar-active");
+			}
+		});
+
+
+        $('.banner-img-slider').slick({
+            dots: true,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots:false,
+            nextArrow: '.slick-next-1',
+            prevArrow:  '.slick-prev-1',
+            asNavFor: '.banner-content-slider'
+        });
+        $('.banner-content-slider').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            asNavFor: '.banner-img-slider',
+            dots: false,
+            centerMode: false,
+            arrows:false
+        });
+        $('.design-section-slider').slick({
+            dots: false,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            arrows:false,
+            autoplay: true,
+            autoplaySpeed: 4000,
+            responsive: [
+                {
+                    breakpoint: 991,
+                    settings: {
+                        slidesToShow: 2,
+                    }
+                },
+                {
+                    breakpoint: 767,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                },
+                
+            ]
+        });
+
+        $('.testimonial-slider').slick({
+            infinite: true,
+            speed: 500,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots:false,
+            nextArrow: '.t-slick-next-2',
+            prevArrow:  '.t-slick-prev-2',
+            fade: true,
+        });
+
+        $('.brand-logo-slider').slick({
+            dots: true,
+            infinite: true,
+            speed: 500,
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            dots:false,
+            autoplay: true,
+            autoplaySpeed: 6000,
+            arrows:false,
+            responsive: [
+            {
+                    breakpoint: 1366,
+                    settings: {
+                        slidesToShow: 4,
+                    }
+                },
+                {
+                    breakpoint: 1199,
+                    settings: {
+                        slidesToShow: 4,
+                    }
+                },
+                {
+                    breakpoint: 991,
+                    settings: {
+                        slidesToShow: 3,
+                    }
+                },
+                {
+                    breakpoint: 767,
+                    settings: {
+                        slidesToShow: 2,
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                }
+            ]
+        });
+	
+
+        $('.slider').slick({
+            lazyLoad: 'ondemand',
+            rows:2,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            infinite: false,
+            nextArrow: '.slick-next-2',
+            prevArrow:  '.slick-prev-2',
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 2,
+                    }
+                },
+                {
+                    breakpoint: 576,
+                    settings: {
+                        slidesToShow: 1,
+                    }
+                }
+            ]
+        });
+    </script>
+
+</body>
+</html>
